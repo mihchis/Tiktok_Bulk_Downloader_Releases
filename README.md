@@ -16,37 +16,41 @@
 
 ## 📌 Tính năng nổi bật
 
-### 1. 🎵 TikTok Downloader
-- **Tải hàng loạt theo kênh**: Nhập `@username` hoặc liên kết kênh để quét và tải toàn bộ video của tác giả.
-- **Tải bài viết lẻ**: Phân tích và tải video không logo hoặc trọn bộ album ảnh (Slideshow/Photos) ở độ phân giải gốc cao nhất.
+### 1. 🎵 Tải hàng loạt từ TikTok & Douyin (Bulk Downloader)
+- **Tải hàng loạt theo kênh người dùng**: Nhập `@username` hoặc liên kết kênh để quét và tải toàn bộ ảnh, video của tác giả không có logo (watermark) với chất lượng gốc HD cao nhất.
+- **Tải video gán giỏ hàng TikTok Shop**: Tự động giải mã và trích xuất video sạch không dính watermark, không dính banner giỏ hàng.
+- **Tải trọn bộ Album ảnh (Photo Slideshow)**: Tải đầy đủ từng tấm ảnh chất lượng cao và Live Photo (ảnh động kèm âm thanh gốc trên Douyin).
 - **Tách âm thanh gốc**: Tải file MP3 chất lượng cao trực tiếp từ CDN máy chủ.
-- **Xuất báo cáo Excel**: Xuất danh sách video đã quét ra `.xlsx` kèm đầy đủ số liệu thống kê (views, likes, comments, shares).
+- **Xuất báo cáo Excel**: Xuất danh sách video đã quét ra `.xlsx` kèm đầy đủ số liệu thống kê: lượt xem, thả tim, bình luận, chia sẻ.
 
-### 2. 🐉 Douyin (抖音) Downloader
-- **Hỗ trợ liên kết chia sẻ**: Tự động nhận diện và giải mã link rút gọn `v.douyin.com/...`.
-- **Tải Live Photo**: Tách trọn vẹn cả video chuyển động lẫn ảnh tĩnh sắc nét kèm âm thanh nguyên bản.
-- **Cơ chế TTWID an toàn**: Tự động khởi tạo token an toàn giúp vượt rào cản kiểm duyệt của Douyin.
-- **Trích xuất thông tin tác giả**: Hiển thị avatar, tên người dùng, tổng lượt thích và người theo dõi.
+### 2. 🔍 Bộ lọc, Sắp xếp & Phân trang chuyên sâu
+- **Lọc thông minh**: Lọc danh sách theo ID bài viết, từ khóa trong Mô tả (Caption), Loại nội dung (Video hoặc Photo/Album ảnh) và Khoảng ngày tạo.
+- **Sắp xếp linh hoạt**: Dễ dàng sắp xếp danh sách theo số lượt Likes (Thả tim), Comments (Bình luận), Views (Lượt xem) để tìm kiếm nội dung xu hướng (viral/trending).
+- **Phân trang linh hoạt**: Hỗ trợ phân trang và chọn tải xuống video theo số lượng nhất định tùy theo nhu cầu.
 
-### 3. 🚀 Kuaishou (快手) & Rednote (小红书) *(Sắp ra mắt)*
-- Trích xuất video ngắn và hình ảnh chất lượng cao không watermark từ 快手 và Tiểu Hồng Thư.
+### 3. 🔗 Tải nhiều liên kết cùng lúc (Multi-URL Downloader)
+- Hỗ trợ dán danh sách hàng chục link TikTok và Douyin cùng một lúc (mỗi dòng một link).
+- Tự động nhận diện nền tảng tương ứng và đưa vào tiến trình xử lý tuần tự an toàn.
 
-### 4. 🔗 Tải nhiều liên kết (Multi-URL Downloader)
-- Dán danh sách hàng chục link TikTok và Douyin cùng lúc (mỗi dòng một link).
-- Tự động nhận diện nền tảng và đưa vào tiến trình tải tuần tự an toàn.
+### 4. ⚡ Tối ưu tốc độ tải & Tùy biến cài đặt
+- **Tối ưu hóa tốc độ tải**: Tải trực tiếp đa luồng từ CDN máy chủ tốc độ cao, đảm bảo giữ nguyên độ phân giải gốc.
+- **Tùy biến thư mục tải xuống**: Tự do lựa chọn thư mục lưu trữ video/ảnh trên máy tính.
+- **Cấu hình tên file**: Tùy chỉnh quy tắc đặt tên tệp khi tải về theo định dạng mong muốn.
+- **Điều chỉnh số lượng tải đồng thời**: Cấu hình số luồng tải đồng thời phù hợp với cấu hình máy và tốc độ mạng.
 
 ### 5. 👥 Quản lý KOL (KOL Manager)
-- Lưu trữ danh bạ các kênh sáng tạo nội dung quan trọng.
-- Theo dõi chỉ số, cập nhật video mới và tải nhanh chỉ với 1 cú click.
+- Lưu danh sách các kênh sáng tạo nội dung quan trọng trên TikTok và Douyin.
+- Theo dõi chỉ số, cập nhật video mới và tải nhanh toàn bộ nội dung của KOL chỉ với 1 cú click.
 
-### 6. 🛡️ Bảo mật Cookie & Kiểm tra sức khỏe tự động
-- **Che mắt bảo mật vĩnh viễn**: Chuỗi Cookie trong Cài đặt luôn được che dạng mã hóa `••••` để chống quay lén hoặc chụp màn hình.
-- **Kiểm tra tự động khi mở app**: Tự động ping API để xác định cookie còn sống hay đã hết hạn, hiển thị trạng thái `🟢 Còn sống` / `🔴 Hết hạn`.
+### 6. 📥 Hàng đợi tải toàn cục, Chạy ngầm & Lịch sử
+- **Hàng đợi tải an toàn & System Tray**: Chạy ngầm mượt mà dưới Khay hệ thống, tránh bị chặn IP / WAF rate-limit, tự động gửi thông báo Desktop khi hoàn tất.
+- **Lịch sử tải xuống tiện lợi**: Tích hợp Video Player xem ngoại tuyến không tốn băng thông, nút Tải lại (Re-download) 1 chạm và mở nhanh vị trí tệp trong thư mục.
 
-### 7. 📥 Hàng đợi tải toàn cục & Chạy ngầm (System Tray)
-- Tải tuần tự tránh bị chặn IP / WAF rate-limit.
-- Tự động thu nhỏ xuống Khay hệ thống khi bấm nút đóng (X).
-- Gửi thông báo Desktop khi hoàn tất tác vụ.
+### 7. 🎨 Giao diện hiện đại & Tiện ích thông minh
+- **Light / Dark Mode**: Chuyển đổi giao diện Sáng / Tối mượt mà, bảo vệ mắt.
+- **Đa ngôn ngữ**: Hỗ trợ chuyển đổi ngôn ngữ linh hoạt.
+- **Tự động kiểm tra bản cập nhật (Auto-Update)**: Tự động phát hiện phiên bản mới nhất từ GitHub Releases và thông báo người dùng cập nhật ngay trong ứng dụng.
+- **Bảo mật Cookie & Kiểm tra sức khỏe tự động**: Mã hóa che mắt cookie (`••••`) chống lộ thông tin và tự động ping kiểm tra trạng thái sống/hết hạn của cookie khi khởi động ứng dụng.
 
 ---
 
